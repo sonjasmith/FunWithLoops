@@ -123,7 +123,7 @@ namespace FunWithLoops
             //Console.WriteLine(story[1]);
             //Console.WriteLine(story[2]);
 
-            //While loops (ATM transactions loop you back to the top)
+            //WHILE LOOP (ATM transactions loop you back to the top)
             //Console.WriteLine("Do you want to play a game");
             //string playAgain = Console.ReadLine();
 
@@ -134,22 +134,41 @@ namespace FunWithLoops
             //    playAgain = Console.ReadLine();
             //}
 
-            Console.WriteLine("What is your fav ROYGBIV color");
-            string userColor = Console.ReadLine();
-            //bool isRoygbivColor = false;
-            while (userColor != "red" && userColor != "yellow")
-            {
-                Console.WriteLine("Sorry That is not the correct color please try again ");
-                userColor = Console.ReadLine();
-            }
+            //Console.WriteLine("What is your fav ROYGBIV color");
+            //string userColor = Console.ReadLine();
+            ////bool isRoygbivColor = false;
+            //while (userColor != "red" && userColor != "yellow")
+            //{
+            //    Console.WriteLine("Sorry That is not the correct color please try again ");
+            //    userColor = Console.ReadLine();
+            //}
             //Console.WriteLine("This is outside the while loop");
-            while (true)
+            //while (true)
+            //{
+            //    Console.WriteLine(10); //continuous loop DO NOT USE
+            //}
+
+            //DO WHILE LOOP - automatically happens at least one time
+            //Ex. free trials like netflix
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Do you want to build a snowman");
+            //    Console.WriteLine("That was fun");
+            //    Console.WriteLine("Do you want to build another snowman");
+            //    playAgain = Console.ReadLine();
+            //}
+            //while (playAgain == "yes");
+
+            for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(10); //continuous loop DO NOT USE
+                Console.WriteLine(i);
+                if(i == 5)
+                    {
+                    break;
+                    }
             }
-
-
-
+           
 
 
         }
