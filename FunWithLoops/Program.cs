@@ -160,17 +160,158 @@ namespace FunWithLoops
             //}
             //while (playAgain == "yes");
 
-            for (int i = 0; i < 10; i++)
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //    if(i == 5)
+            //        {
+            //        break;
+            //        }
+            //}
+            //int x = 1;
+            //while (x <= 10) //<= to include 10
+            //{
+            //    Console.WriteLine(x);
+            //    x++;
+            //}
+            //int lives = 3;
+            //int magicNumber = 24;
+            ////bool isPlaying = true;
+            //bool isPlaying = false;
+
+            //while (lives > 0 && isPlaying == true)
+            //{
+            //    Console.WriteLine("Guess my lucky number");
+            //    int userGuess = int.Parse(Console.ReadLine());
+            //    if(magicNumber == userGuess)
+            //    {
+            //        Console.WriteLine("You guessed right!!");
+            //        isPlaying = false;
+            //        //break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Sorry try again");
+            //        lives--;
+            //        Console.WriteLine("You have " + lives + lives +" left");
+            //    }
+            //}
+
+
+
+            //Console.WriteLine("Please enter a number");
+            //int userNumber = int.Parse(Console.ReadLine());
+
+            //if (userNumber % 3 == 0 && userNumber % 5 == 0)
+            //{
+            //    Console.WriteLine("FizzBuzz");
+            //}
+            //else if (userNumber % 3 == 0)
+            //{
+            //    Console.WriteLine("Fizz");
+            //}
+            //if (userNumber % 5 == 0)
+            //{
+            //    Console.WriteLine("Buzz");
+            //}
+
+            //print the numbers 1-100
+            //if the number is a multiple of 3 print fizz
+            //if the number is a multiple of 5 print buzz
+            //if the number is a multiple of both print fizzbuzz
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //    if (i % 3 == 0 || i % 5 == 0)
+            //    {
+            //        if (i % 3 == 0)
+            //        {
+            //            Console.Write("Fizz");
+            //        }
+
+            //        if (i % 5 == 0)
+            //        {
+            //            Console.Write("Buzz");
+            //        }
+            //    }
+
+            //    else
+            //    {
+            //        Console.Write(i);
+            //    }
+
+            //    Console.WriteLine();
+            //    }
+
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //    if (i % 15 == 0)
+            //    {
+            //        Console.WriteLine("fizzbizz");
+            //    }
+            //    else if (i % 3 == 0)
+            //    {
+            //        Console.WriteLine("fizz");
+            //    }
+            //    else if (i % 5 == 0)
+            //    {
+            //        Console.WriteLine("buzz");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+
+
+            //create an int array with 10 elements
+            //find the mean of these elements and output the result to the console
+            //int[] array = { 10, 5, 26, 6, 20, 15, 3, 12, 25, 1 };
+            //int total = 0;
+            //foreach (int number in array)
+            //{
+            //    total += number;
+            //}
+            //int mean = total / array.Length;
+            //Console.WriteLine(mean);
+
+            //NESTED LOOP
+            //1234
+            //1234
+
+            //    for (int a = 1; a <= 2; a++)
+            //    {
+            //        for (int j = 1; j <= 4; j++)
+            //        {
+            //            Console.Write(j);//column
+            //        }
+            //        Console.WriteLine();//row
+            //    }
+
+            //}
+
+            ////PRINT A TRIANGLE
+            //int n = 4;
+            //for (int row = 1; row <= n; row++)
+            //{
+            //    for (int col = 1; col <= row; col++)
+            //    {
+            //        Console.Write(col + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //WRITE A PROGRAM THAT PRINTS A MULTIPLICATION TABLE
+            //(5 X 5 FOR EX) USING NESTED LOOPS
+            for (int row = 1; row <= n; row++)
             {
-                Console.WriteLine(i);
-                if(i == 5)
-                    {
-                    break;
-                    }
+                for (int col = 5; col <= row; col++)
+                {
+                    Console.Write(col + " ");
+                }
+                Console.WriteLine();
             }
-           
-
-
+            
+            //CREATE AN ARRAY OF YOUR FAV MOVIES. PRINT OUT EACH MOVIE IN THE LIST
+            //UNLESS THE MOVIE STARTS WITH A VOWEL. HINT: RESEARCH .startsWith()
         }
     }
 }
